@@ -1,4 +1,4 @@
-// jenkins/Jenkinsfile/
+// jenkins/Jenkinsfile/Different path
 pipeline {
     agent any
 
