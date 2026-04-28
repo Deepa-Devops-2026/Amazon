@@ -1,0 +1,12 @@
+// jenkins/Jenkinsfile
+pipeline {
+    agent any
+
+    stages {
+        stage('Build') {
+            steps {
+                echo "Building from custom path Jenkinsfile"
+            }
+        }
+    }
+}
